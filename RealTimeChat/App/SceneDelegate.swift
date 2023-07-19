@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  RealTimeChat
-//
-//  Created by Vladimir Fibe on 19.07.2023.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {

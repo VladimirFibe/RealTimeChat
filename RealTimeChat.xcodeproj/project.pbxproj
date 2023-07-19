@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		025273312A68043A002A2688 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025273302A68043A002A2688 /* DatabaseManager.swift */; };
+		025273342A68046B002A2688 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 025273332A68046B002A2688 /* FirebaseDatabase */; };
+		025273362A680474002A2688 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 025273352A680474002A2688 /* FirebaseDatabaseSwift */; };
+		025273382A6805FB002A2688 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 025273372A6805FB002A2688 /* GoogleService-Info.plist */; };
+		0252733B2A68068B002A2688 /* ChatAppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252733A2A68068B002A2688 /* ChatAppUser.swift */; };
 		028EA2A82A67E855003965DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028EA2A72A67E855003965DC /* AppDelegate.swift */; };
 		028EA2AA2A67E855003965DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028EA2A92A67E855003965DC /* SceneDelegate.swift */; };
 		028EA2AC2A67E855003965DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028EA2AB2A67E855003965DC /* ViewController.swift */; };
 		028EA2AF2A67E855003965DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028EA2AD2A67E855003965DC /* Main.storyboard */; };
 		028EA2B12A67E856003965DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028EA2B02A67E856003965DC /* Assets.xcassets */; };
 		028EA2B42A67E856003965DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028EA2B22A67E856003965DC /* LaunchScreen.storyboard */; };
+		028EA2BF2A67EDF0003965DC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 028EA2BE2A67EDF0003965DC /* FirebaseAuth */; };
+		028EA2C72A67F065003965DC /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028EA2C62A67F065003965DC /* PrimaryButton.swift */; };
+		028EA2C92A67F08C003965DC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028EA2C82A67F08C003965DC /* BaseViewController.swift */; };
+		028EA2CD2A67F18A003965DC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028EA2CC2A67F18A003965DC /* WelcomeViewController.swift */; };
+		028EA2D02A67F545003965DC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028EA2CF2A67F545003965DC /* LoginViewController.swift */; };
+		028EA2D22A67F5E8003965DC /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028EA2D12A67F5E8003965DC /* UIView+Extensions.swift */; };
+		028EA2D42A67F63F003965DC /* BaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028EA2D32A67F63F003965DC /* BaseTextField.swift */; };
+		028EA2D72A67F972003965DC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028EA2D62A67F972003965DC /* RegisterViewController.swift */; };
+		028EA2D92A67FB27003965DC /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028EA2D82A67FB27003965DC /* SecondaryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		025273302A68043A002A2688 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		025273372A6805FB002A2688 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0252733A2A68068B002A2688 /* ChatAppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppUser.swift; sourceTree = "<group>"; };
 		028EA2A42A67E855003965DC /* RealTimeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealTimeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		028EA2A72A67E855003965DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		028EA2A92A67E855003965DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +41,15 @@
 		028EA2B02A67E856003965DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		028EA2B32A67E856003965DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		028EA2B52A67E856003965DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		028EA2BC2A67E8E4003965DC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		028EA2C62A67F065003965DC /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		028EA2C82A67F08C003965DC /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		028EA2CC2A67F18A003965DC /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		028EA2CF2A67F545003965DC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		028EA2D12A67F5E8003965DC /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		028EA2D32A67F63F003965DC /* BaseTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextField.swift; sourceTree = "<group>"; };
+		028EA2D62A67F972003965DC /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		028EA2D82A67FB27003965DC /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				025273362A680474002A2688 /* FirebaseDatabaseSwift in Frameworks */,
+				025273342A68046B002A2688 /* FirebaseDatabase in Frameworks */,
+				028EA2BF2A67EDF0003965DC /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0252732F2A680424002A2688 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				025273302A68043A002A2688 /* DatabaseManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		025273322A68046B002A2688 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		025273392A680678002A2688 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0252733A2A68068B002A2688 /* ChatAppUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		028EA29B2A67E855003965DC = {
 			isa = PBXGroup;
 			children = (
+				028EA2BC2A67E8E4003965DC /* README.md */,
 				028EA2A62A67E855003965DC /* RealTimeChat */,
 				028EA2A52A67E855003965DC /* Products */,
+				025273322A68046B002A2688 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +110,98 @@
 		028EA2A62A67E855003965DC /* RealTimeChat */ = {
 			isa = PBXGroup;
 			children = (
+				025273392A680678002A2688 /* Models */,
+				0252732F2A680424002A2688 /* Network */,
+				028EA2CA2A67F16B003965DC /* Features */,
+				028EA2C32A67EEF0003965DC /* Core */,
+				028EA2C22A67EE22003965DC /* Supporting Files */,
+				028EA2BB2A67E884003965DC /* App */,
+			);
+			path = RealTimeChat;
+			sourceTree = "<group>";
+		};
+		028EA2BB2A67E884003965DC /* App */ = {
+			isa = PBXGroup;
+			children = (
 				028EA2A72A67E855003965DC /* AppDelegate.swift */,
 				028EA2A92A67E855003965DC /* SceneDelegate.swift */,
 				028EA2AB2A67E855003965DC /* ViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		028EA2C22A67EE22003965DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				028EA2AD2A67E855003965DC /* Main.storyboard */,
 				028EA2B02A67E856003965DC /* Assets.xcassets */,
 				028EA2B22A67E856003965DC /* LaunchScreen.storyboard */,
+				025273372A6805FB002A2688 /* GoogleService-Info.plist */,
 				028EA2B52A67E856003965DC /* Info.plist */,
 			);
-			path = RealTimeChat;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		028EA2C32A67EEF0003965DC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				028EA2C52A67EF03003965DC /* Extensions */,
+				028EA2C42A67EEF8003965DC /* Base */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		028EA2C42A67EEF8003965DC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				028EA2C62A67F065003965DC /* PrimaryButton.swift */,
+				028EA2C82A67F08C003965DC /* BaseViewController.swift */,
+				028EA2D32A67F63F003965DC /* BaseTextField.swift */,
+				028EA2D82A67FB27003965DC /* SecondaryButton.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		028EA2C52A67EF03003965DC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				028EA2D12A67F5E8003965DC /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		028EA2CA2A67F16B003965DC /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				028EA2D52A67F960003965DC /* Register */,
+				028EA2CE2A67F533003965DC /* Login */,
+				028EA2CB2A67F171003965DC /* Welcome */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		028EA2CB2A67F171003965DC /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				028EA2CC2A67F18A003965DC /* WelcomeViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		028EA2CE2A67F533003965DC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				028EA2CF2A67F545003965DC /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		028EA2D52A67F960003965DC /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				028EA2D62A67F972003965DC /* RegisterViewController.swift */,
+			);
+			path = Register;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +220,11 @@
 			dependencies = (
 			);
 			name = RealTimeChat;
+			packageProductDependencies = (
+				028EA2BE2A67EDF0003965DC /* FirebaseAuth */,
+				025273332A68046B002A2688 /* FirebaseDatabase */,
+				025273352A680474002A2688 /* FirebaseDatabaseSwift */,
+			);
 			productName = RealTimeChat;
 			productReference = 028EA2A42A67E855003965DC /* RealTimeChat.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +253,9 @@
 				Base,
 			);
 			mainGroup = 028EA29B2A67E855003965DC;
+			packageReferences = (
+				028EA2BD2A67EDF0003965DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 028EA2A52A67E855003965DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				028EA2B42A67E856003965DC /* LaunchScreen.storyboard in Resources */,
+				025273382A6805FB002A2688 /* GoogleService-Info.plist in Resources */,
 				028EA2B12A67E856003965DC /* Assets.xcassets in Resources */,
 				028EA2AF2A67E855003965DC /* Main.storyboard in Resources */,
 			);
@@ -138,8 +284,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0252733B2A68068B002A2688 /* ChatAppUser.swift in Sources */,
+				028EA2D92A67FB27003965DC /* SecondaryButton.swift in Sources */,
+				028EA2D02A67F545003965DC /* LoginViewController.swift in Sources */,
+				028EA2D72A67F972003965DC /* RegisterViewController.swift in Sources */,
+				028EA2C92A67F08C003965DC /* BaseViewController.swift in Sources */,
 				028EA2AC2A67E855003965DC /* ViewController.swift in Sources */,
+				028EA2D42A67F63F003965DC /* BaseTextField.swift in Sources */,
 				028EA2A82A67E855003965DC /* AppDelegate.swift in Sources */,
+				028EA2CD2A67F18A003965DC /* WelcomeViewController.swift in Sources */,
+				025273312A68043A002A2688 /* DatabaseManager.swift in Sources */,
+				028EA2C72A67F065003965DC /* PrimaryButton.swift in Sources */,
+				028EA2D22A67F5E8003965DC /* UIView+Extensions.swift in Sources */,
 				028EA2AA2A67E855003965DC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +514,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		028EA2BD2A67EDF0003965DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		025273332A68046B002A2688 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 028EA2BD2A67EDF0003965DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		025273352A680474002A2688 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 028EA2BD2A67EDF0003965DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		028EA2BE2A67EDF0003965DC /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 028EA2BD2A67EDF0003965DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 028EA29C2A67E855003965DC /* Project object */;
 }
